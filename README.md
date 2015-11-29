@@ -4,6 +4,8 @@ Python wrapper for indiegogo API
 
 ##Installation
 
+Caution: installation with `setup.py` is not fully built yet.
+
 ##Usage
 
 ```python

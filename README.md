@@ -99,34 +99,34 @@ result = client.search_campaign(**query)
 
 ####`Campaign`
 Attributes:
-`id`                      : id of the campaign
-`slug`                    : a unique slug field in url
-`created_at`
-`updated_at`
-`title`
-`_image_types`            : an instance of `ImageTypes` mode
-`_currency`               : an instance of `Currency` model
-`collected_funds`
-`goal`
-`funding_ends_at`
-`funding_started_at`
-`tagline`
-`funding_days`
-`funding_type`
-`baseball_card_image_url`
-`region_code`
-`region`
-`country_code_alpha_2`
-`country`
-`city`
-`contributions_count`
-`comments_count`
-`updates_count`
-`_category`               : an instance of `Category` model
-`forever_funding_active`
-`perks_available`
-`_team_members`           : a list of instance of `TeamMember` model
-`_latest_updates`         : a list of instance of `LasestUpdate` model
+|`id`                     | id of the campaign                         |
+|`slug`                   | a unique slug field in url                 |
+|`created_at`             |                                            |
+|`updated_at`             |                                            |
+|`title`                  |                                            |
+|`_image_types`           | an instance of `ImageTypes` mode           |
+|`_currency`              | an instance of `Currency` model            |
+|`collected_funds`        |                                            |
+|`goal`                   |                                            |
+|`funding_ends_at`        |                                            |
+|`funding_started_at`     |                                            |
+|`tagline`                |                                            |
+|`funding_days`           |                                            |
+|`funding_type`           |                                            |
+|`baseball_card_image_url`|                                            |
+|`region_code`            |                                            |
+|`region`                 |                                            |
+|`country_code_alpha_2`   |                                            |
+|`country`                |                                            |
+|`city`                   |                                            |
+|`contributions_count`    |                                            |
+|`comments_count`         |                                            |
+|`updates_count`          |                                            |
+|`_category`              | an instance of `Category` model            |
+|`forever_funding_active` |                                            |
+|`perks_available`        |                                            |
+|`_team_members`          | a list of instance of `TeamMember` model   |
+|`_latest_updates`        | a list of instance of `LasestUpdate` model |
 
 ##Inspirations
 

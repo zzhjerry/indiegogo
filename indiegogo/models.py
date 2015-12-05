@@ -1,6 +1,3 @@
-from utils import parse_obj, parse_list
-
-
 class Campaign(object):
 
 
@@ -164,3 +161,20 @@ class Account(object):
         self.lastname = None
         self.avatar_url = None
         self.name = None
+
+
+def parse_obj(obj, cls):
+    klass = globals().get(cls)
+    if not klass:
+        print("{} model does not exist".format(cls))
+    model = klass()
+    for k, v in obj.items():
+        setattr(model, k, v)
+    return model
+
+def parse_list(lst, cls):
+    result = []
+    for js_obj in lst:
+        obj = parse_obj(js_obj, cls)
+        result.append(obj)
+    return result

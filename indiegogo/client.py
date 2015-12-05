@@ -1,8 +1,7 @@
 import json
 import inspect
 import requests
-
-from utils import parse_list
+from . import models
 
 class Client(object):
 
@@ -37,7 +36,7 @@ class Client(object):
         page = Page()
         for key, value in json_obj.items():
             setattr(page, key, value)
-        page.response = parse_list(page.response, cls)
+        page.response = models.parse_list(page.response, cls)
 
         self.caller_status[caller] = page.pagination
 
@@ -54,4 +53,3 @@ class Page(object):
 
     def __getitem__(self, index):
         return self.response[index]
-

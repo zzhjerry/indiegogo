@@ -108,15 +108,6 @@ Attributes
 - `title`
 - `_image_types` : an instance of `ImageTypes` model
 - `_currency` : an instance of `Currency` model
-=======
-- `id`:id of the campaign
-- `slug`:a unique slug field in url
-- `created_at`
-- `updated_at`
-- `title`
-- `_image_types`:an instance of `ImageTypes` model
-- `_currency`:an instance of `Currency` model
->>>>>>> 3474cd8e5c1f3a38875d9b9fbfb1b3772e2bb090
 - `collected_funds`
 - `goal`
 - `funding_ends_at`
@@ -133,19 +124,11 @@ Attributes
 - `contributions_count`
 - `comments_count`
 - `updates_count`
-<<<<<<< HEAD
 - `_category` : an instance of `Category` model
 - `forever_funding_active`
 - `perks_available`
 - `_team_members` : a list of instance of `TeamMember` model
 - `_latest_updates` : a list of instance of `LasestUpdate` model
-=======
-- `_category`:an instance of `Category` model
-- `forever_funding_active`
-- `perks_available`
-- `_team_members`:a list of instance of `TeamMember` model
-- `_latest_updates`:a list of instance of `LasestUpdate` model
->>>>>>> 3474cd8e5c1f3a38875d9b9fbfb1b3772e2bb090
 
 ####`ImageTypes`
 Attributes
@@ -156,17 +139,13 @@ Attributes
 - `original`
 
 ####`Currency`
-<<<<<<< HEAD
 Attributes
-=======
-| Attributes
->>>>>>> 3474cd8e5c1f3a38875d9b9fbfb1b3772e2bb090
 - `iso_num`
 - `iso_code`
 - `symbol`
 
 ####`Category`
-| Attributes
+Attributes
 - `id`
 - `name`
 - `text`

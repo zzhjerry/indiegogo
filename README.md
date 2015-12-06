@@ -21,34 +21,34 @@ result = client.search_campaigns(category='Fashion')
 print(result) # see all the result
 
 # get individual fields of the first result
-result[0].title
-result[0].slug
-result[0].created_at
-result[0].updated_at
-result[0].title
-result[0].image_types
-result[0].currency.iso_num
-result[0].collected_funds
-result[0].goal
-result[0].funding_ends_at
-result[0].funding_started_at
-result[0].tagline
-result[0].funding_days
-result[0].funding_type
-result[0].baseball_card_image_url
-result[0].region_code
-result[0].region
-result[0].country_code_alpha_2
-result[0].country
-result[0].city
-result[0].contributions_count
-result[0].comments_count
-result[0].updates_count
-result[0].category.name
-result[0].forever_funding_active
-result[0].perks_available
-result[0].team_members[0].name
-result[0].latest_updates[0].text
+print( result[0].title )
+print( result[0].slug )
+print( result[0].created_at )
+print( result[0].updated_at )
+print( result[0].title )
+print( result[0].image_types )
+print( result[0].currency.iso_num )
+print( result[0].collected_funds )
+print( result[0].goal )
+print( result[0].funding_ends_at )
+print( result[0].funding_started_at )
+print( result[0].tagline )
+print( result[0].funding_days )
+print( result[0].funding_type )
+print( result[0].baseball_card_image_url )
+print( result[0].region_code )
+print( result[0].region )
+print( result[0].country_code_alpha_2 )
+print( result[0].country )
+print( result[0].city )
+print( result[0].contributions_count )
+print( result[0].comments_count )
+print( result[0].updates_count )
+print( result[0].category.name )
+print( result[0].forever_funding_active )
+print( result[0].perks_available )
+print( result[0].team_members[0].name )
+print( result[0].latest_updates[0].text )
 ```
 
 ###Get continuous pages of the result:

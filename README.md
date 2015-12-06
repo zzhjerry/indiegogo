@@ -129,6 +129,54 @@ result = client.search_campaign(**query)
 |`_team_members`          | a list of instance of `TeamMember` model   |
 |`_latest_updates`        | a list of instance of `LasestUpdate` model |
 
+####`ImageTypes`
+| Attributes      | Description |
+| --------------- | ----------- |
+| `baseball_card` |             |
+| `small`         |             |
+| `medium`        |             |
+| `large`         |             |
+| `original`      |             |
+
+####`Currency`
+| Attributes   | Description |
+| ------------ | ----------- |
+| `iso_num`    |             |
+| `iso_code`   |             |
+| `symbol`     |             |
+
+####`Category`
+| Attributes  | Description |
+| ----------- | ----------- |
+| `id`        |             |
+| `name`      |             |
+| `text`      |             |
+
+####`TeamMember`
+| Attributes   | Description              |
+| -----------  | -----------              |
+| `id`         |                          |
+| `name`       |                          |
+| `status`     |                          |
+| `owner`      |                          |
+| `avatar_url` |                          |
+| `_factbook`  | See the `Factbook` model |
+| `account_id` |                          |
+| `user_type`  |                          |
+
+####`Facebook`
+| Attributes      | Description |
+| --------------- | ----------- |
+| `verified`      |             |
+| `friends_count` |             |
+
+####`Account`
+- `id`
+- `firstname`
+- `lastname`
+- `avatar_url`
+- `name`
+
 ##Inspirations
 
 Inspired by helpscout api python wrapper

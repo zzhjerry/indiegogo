@@ -72,7 +72,8 @@ print(result.coller_status)
 
 ###Construct different searching criterias
 
-See "Reference" section for a full list of query choices
+Please see official documentation Indiegogo give out for a full reference
+of query choices
 
 ```python
 # set up
@@ -99,13 +100,13 @@ result = client.search_campaign(**query)
 
 ####`Campaign`
 Attributes
-- `id`:id of the campaign
-- `slug`:a unique slug field in url
+- `id` : id of the campaign
+- `slug` : a unique slug field in url
 - `created_at`
 - `updated_at`
 - `title`
-- `_image_types`:an instance of `ImageTypes` model
-- `_currency`:an instance of `Currency` model
+- `_image_types` : an instance of `ImageTypes` model
+- `_currency` : an instance of `Currency` model
 - `collected_funds`
 - `goal`
 - `funding_ends_at`
@@ -122,11 +123,11 @@ Attributes
 - `contributions_count`
 - `comments_count`
 - `updates_count`
-- `_category`:an instance of `Category` model
+- `_category` : an instance of `Category` model
 - `forever_funding_active`
 - `perks_available`
-- `_team_members`:a list of instance of `TeamMember` model
-- `_latest_updates`:a list of instance of `LasestUpdate` model
+- `_team_members` : a list of instance of `TeamMember` model
+- `_latest_updates` : a list of instance of `LasestUpdate` model
 
 ####`ImageTypes`
 Attributes
@@ -170,6 +171,7 @@ Attributes
 - `lastname`
 - `avatar_url`
 - `name`
+
 
 ##Inspirations
 

@@ -100,7 +100,6 @@ result = client.search_campaign(**query)
 
 ####`Campaign`
 Attributes
-<<<<<<< HEAD
 - `id` : id of the campaign
 - `slug` : a unique slug field in url
 - `created_at`

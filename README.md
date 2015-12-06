@@ -98,77 +98,71 @@ result = client.search_campaign(**query)
 ###Models
 
 ####`Campaign`
-|Attributes               |Description                                 |
-|-------------------------|--------------------------------------------|
-|`id`                     | id of the campaign                         |
-|`slug`                   | a unique slug field in url                 |
-|`created_at`             |                                            |
-|`updated_at`             |                                            |
-|`title`                  |                                            |
-|`_image_types`           | an instance of `ImageTypes` mode           |
-|`_currency`              | an instance of `Currency` model            |
-|`collected_funds`        |                                            |
-|`goal`                   |                                            |
-|`funding_ends_at`        |                                            |
-|`funding_started_at`     |                                            |
-|`tagline`                |                                            |
-|`funding_days`           |                                            |
-|`funding_type`           |                                            |
-|`baseball_card_image_url`|                                            |
-|`region_code`            |                                            |
-|`region`                 |                                            |
-|`country_code_alpha_2`   |                                            |
-|`country`                |                                            |
-|`city`                   |                                            |
-|`contributions_count`    |                                            |
-|`comments_count`         |                                            |
-|`updates_count`          |                                            |
-|`_category`              | an instance of `Category` model            |
-|`forever_funding_active` |                                            |
-|`perks_available`        |                                            |
-|`_team_members`          | a list of instance of `TeamMember` model   |
-|`_latest_updates`        | a list of instance of `LasestUpdate` model |
+Attributes
+- `id`:id of the campaign
+- `slug`:a unique slug field in url
+- `created_at`
+- `updated_at`
+- `title`
+- `_image_types`:an instance of `ImageTypes` model
+- `_currency`:an instance of `Currency` model
+- `collected_funds`
+- `goal`
+- `funding_ends_at`
+- `funding_started_at`
+- `tagline`
+- `funding_days`
+- `funding_type`
+- `baseball_card_image_url`
+- `region_code`
+- `region`
+- `country_code_alpha_2`
+- `country`
+- `city`
+- `contributions_count`
+- `comments_count`
+- `updates_count`
+- `_category`:an instance of `Category` model
+- `forever_funding_active`
+- `perks_available`
+- `_team_members`:a list of instance of `TeamMember` model
+- `_latest_updates`:a list of instance of `LasestUpdate` model
 
 ####`ImageTypes`
-| Attributes      | Description |
-| --------------- | ----------- |
-| `baseball_card` |             |
-| `small`         |             |
-| `medium`        |             |
-| `large`         |             |
-| `original`      |             |
+Attributes
+- `baseball_card`
+- `small`
+- `medium`
+- `large`
+- `original`
 
 ####`Currency`
-| Attributes   | Description |
-| ------------ | ----------- |
-| `iso_num`    |             |
-| `iso_code`   |             |
-| `symbol`     |             |
+Attributes
+- `iso_num`
+- `iso_code`
+- `symbol`
 
 ####`Category`
-| Attributes  | Description |
-| ----------- | ----------- |
-| `id`        |             |
-| `name`      |             |
-| `text`      |             |
+| Attributes
+- `id`
+- `name`
+- `text`
 
 ####`TeamMember`
-| Attributes   | Description              |
-| -----------  | -----------              |
-| `id`         |                          |
-| `name`       |                          |
-| `status`     |                          |
-| `owner`      |                          |
-| `avatar_url` |                          |
-| `_factbook`  | See the `Factbook` model |
-| `account_id` |                          |
-| `user_type`  |                          |
+Attributes
+- `id`
+- `name`
+- `status`
+- `owner`
+- `avatar_url`
+- `_factbook` : See the `Factbook` model
+- `account_id`
+- `user_type`
 
 ####`Facebook`
-| Attributes      | Description |
-| --------------- | ----------- |
-| `verified`      |             |
-| `friends_count` |             |
+Attributes
+- `verified`
+- `friends_count`
 
 ####`Account`
 - `id`

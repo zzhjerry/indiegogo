@@ -62,12 +62,12 @@ client.api_key = '<your api key here>'
 # get search result of page 1
 result = client.search_campaign(category="Fashion")
 # see the page status
-print(result.coller_status)
+print(result.caller_status)
 
 # get search result of page 2
 result = client.search_campaign(category="Fashion")
 # see the page status
-print(result.coller_status)
+print(result.caller_status)
 ```
 
 ###Construct different searching criterias
